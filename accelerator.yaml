@@ -17,7 +17,8 @@ accelerator:
   options:
   - name: websites
     inputType: textarea
-    display: Website Links
+    display: true
+    label: 'Website Links'
     defaultValue: |
       Provide a list of website links (one per line), using this format for each line - <li><a href="mywebsite.com">My Website</a></li>
   engine:
