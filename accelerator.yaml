@@ -1,0 +1,30 @@
+accelerator:
+  displayName: App Collation Accelerator
+  description: Project template for displaying a set of custom, embeddable app links as separate tabs on a web page
+  iconUrl: https://pic.onlinewebfonts.com/svg/img_523704.png
+  tags:
+  - "HTML"
+  - "Progressive"
+  - "Single"
+  - "Page"
+  - "Web"
+  - "App"
+  - "Development"
+  - "frontend"
+  - "tabs"
+  - "UI"
+  - "interface"
+  options:
+  - name: websites
+    inputType: textarea
+    display: Website Links
+    defaultValue: |
+      Provide a list of website links (one per line), using this format for each line - <li><a href="mywebsite.com">My Website</a></li>
+  engine:
+    merge:
+      chain:
+        - type: ReplaceText
+          include: ['portal.html']
+          substitutions:
+              - text: <li><a href="mywebsite.com"></a></li>
+                with: "#websites"
