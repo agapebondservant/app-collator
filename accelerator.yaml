@@ -125,22 +125,22 @@ engine:
       - type: ReplaceText
         substitutions:
         - text: <li><a href="mywebsite1.com"></a></li>
-          with: <li><a href="#website1">"#websiteText1"</a></li>
+          with: "<li><a href='" + #website1 +"'>" + #websiteText1 + "</a></li>"
         - text: <li><a href="mywebsite2.com"></a></li>
-          with: <li><a href="#website2">"#websiteText2"</a></li>
+          with: "<li><a href='" + #website2 +"'>" + #websiteText2 + "</a></li>"
         - text: <li><a href="mywebsite3.com"></a></li>
-          with: <li><a href="#website3">"#websiteText3"</a></li>
+          with: "<li><a href='" + #website3 +"'>" + #websiteText3 + "</a></li>"
         - text: <li><a href="mywebsite4.com"></a></li>
-          with: <li><a href="#website4">"#websiteText4"</a></li>
+          with: "<li><a href='" + #website4 +"'>" + #websiteText4 + "</a></li>"
         - text: <li><a href="mywebsite5.com"></a></li>
-          with: <li><a href="#website5">"#websiteText5"</a></li>
+          with: "<li><a href='" + #website5 +"'>" + #websiteText5 + "</a></li>"
         - text: <li><a href="mywebsite6.com"></a></li>
-          with: <li><a href="#website6">"#websiteText6"</a></li>
+          with: "<li><a href='" + #website6 +"'>" + #websiteText6 + "</a></li>"
         - text: <li><a href="mywebsite7.com"></a></li>
-          with: <li><a href="#website7">"#websiteText7"</a></li>
+          with: "<li><a href='" + #website7 +"'>" + #websiteText7 + "</a></li>"
         - text: <li><a href="mywebsite8.com"></a></li>
-          with: <li><a href="#website8">"#websiteText8"</a></li>
+          with: "<li><a href='" + #website8 +"'>" + #websiteText8 + "</a></li>"
         - text: <li><a href="mywebsite9.com"></a></li>
-          with: <li><a href="#website9">"#websiteText9"</a></li>
+          with: "<li><a href='" + #website9 +"'>" + #websiteText9 + "</a></li>"
         - text: <li><a href="mywebsite10.com"></a></li>
-          with: <li><a href="#website10">"#websiteText10"</a></li>
+          with: "<li><a href='" + #website10 +"'>" + #websiteText10 + "</a></li>"
