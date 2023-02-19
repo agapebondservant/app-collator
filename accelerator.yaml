@@ -124,23 +124,23 @@ engine:
         patterns: ['**']
       - type: ReplaceText
         substitutions:
-        - text: <li><a href="mywebsite1.com"></a></li>
-          with: "<li><a href='#website1'>#websiteText1</a></li>"
-        - text: <li><a href="mywebsite2.com"></a></li>
-          with: "<li><a href='#website2'>#websiteText2</a></li>"
-        - text: <li><a href="mywebsite3.com"></a></li>
-          with: "<li><a href='#website3'>#websiteText3</a></li>"
-        - text: <li><a href="mywebsite4.com"></a></li>
-          with: "<li><a href='#website4'>#websiteText4</a></li>"
-        - text: <li><a href="mywebsite5.com"></a></li>
-          with: "<li><a href='#website'>#websiteText5</a></li>"
-        - text: <li><a href="mywebsite6.com"></a></li>
-          with: "<li><a href='#website6'>#websiteText6</a></li>"
-        - text: <li><a href="mywebsite7.com"></a></li>
-          with: "<li><a href='#website7'>#websiteText7</a></li>"
-        - text: <li><a href="mywebsite8.com"></a></li>
-          with: "<li><a href='#website8'>#websiteText8</a></li>"
-        - text: <li><a href="mywebsite9.com"></a></li>
-          with: "<li><a href='#website9'>#websiteText9</a></li>"
-        - text: <li><a href="mywebsite10.com"></a></li>
-          with: "<li><a href='#website10'>#websiteText10</a></li>"
+        - text: "&lt;li&gt;&lt;a href='mywebsite1.com'&gt;&lt;/a&gt;&lt;/li&gt;"
+          with: "&lt;li&gt;&lt;a href='#website1'&gt;#websiteText1&lt;/a&gt;&lt;/li&gt;"
+        - text: "&lt;li&gt;&lt;a href='mywebsite2.com'&gt;&lt;/a&gt;&lt;/li&gt;"
+          with: "&lt;li&gt;&lt;a href='#website2'&gt;#websiteText2&lt;/a&gt;&lt;/li&gt;"
+        - text: "&lt;li&gt;&lt;a href='mywebsite3.com'&gt;&lt;/a&gt;&lt;/li&gt;"
+          with: "&lt;li&gt;&lt;a href='#website3'&gt;#websiteText3&lt;/a&gt;&lt;/li&gt;"
+        - text: "&lt;li&gt;&lt;a href='mywebsite4.com'&gt;&lt;/a&gt;&lt;/li&gt;"
+          with: "&lt;li&gt;&lt;a href='#website4'&gt;#websiteText4&lt;/a&gt;&lt;/li&gt;"
+        - text: "&lt;li&gt;&lt;a href='mywebsite5.com'&gt;&lt;/a&gt;&lt;/li&gt;"
+          with: "&lt;li&gt;&lt;a href='#website'&gt;#websiteText5&lt;/a&gt;&lt;/li&gt;"
+        - text: "&lt;li&gt;&lt;a href='mywebsite6.com'&gt;&lt;/a&gt;&lt;/li&gt;"
+          with: "&lt;li&gt;&lt;a href='#website6'&gt;#websiteText6&lt;/a&gt;&lt;/li&gt;"
+        - text: "&lt;li&gt;&lt;a href='mywebsite7.com'&gt;&lt;/a&gt;&lt;/li&gt;"
+          with: "&lt;li&gt;&lt;a href='#website7'&gt;#websiteText7&lt;/a&gt;&lt;/li&gt;"
+        - text: "&lt;li&gt;&lt;a href='mywebsite8.com'&gt;&lt;/a&gt;&lt;/li&gt;"
+          with: "&lt;li&gt;&lt;a href='#website8'&gt;#websiteText8&lt;/a&gt;&lt;/li&gt;"
+        - text: "&lt;li&gt;&lt;a href='mywebsite9.com'&gt;&lt;/a&gt;&lt;/li&gt;"
+          with: "&lt;li&gt;&lt;a href='#website9'&gt;#websiteText9&lt;/a&gt;&lt;/li&gt;"
+        - text: "&lt;li&gt;&lt;a href='mywebsite10.com'&gt;&lt;/a&gt;&lt;/li&gt;"
+          with: "&lt;li&gt;&lt;a href='#website10'&gt;#websiteText10&lt;/a&gt;&lt;/li&gt;"
