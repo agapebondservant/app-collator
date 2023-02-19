@@ -123,10 +123,7 @@ h2#loading {
 
         blankTabs.each(function() {
             var sel = this;
-
-            new MutationObserver(function() {
-                $(sel).parent().addClass('tab-hide');
-            }).observe(sel, {childList: true, subtree: true});
+            $(sel).parent().addClass('tab-hide');
         });
     });
 </script>
