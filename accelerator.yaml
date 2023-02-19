@@ -15,17 +15,132 @@ accelerator:
   - "UI"
   - "interface"
   options:
-  - name: websites
-    inputType: textarea
+  - name: website1
+    inputType: string
     display: true
     label: 'Website Links'
-    defaultValue: |
-      Provide a list of website links (one per line), using this format for each line - <li><a href="mywebsite.com">My Website</a></li>
-  engine:
-    merge:
-      chain:
-        - type: ReplaceText
-          include: ['portal.html']
-          substitutions:
-              - text: <li><a href="mywebsite.com"></a></li>
-                with: "#websites"
+    defaultValue: http(s)//
+  - name: websiteText1
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: Link
+  - name: website2
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: http(s)//
+  - name: websiteText2
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: Link
+  - name: website3
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: http(s)//
+  - name: websiteText3
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: Link
+  - name: website4
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: http(s)//
+  - name: websiteText4
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: Link
+  - name: website5
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: http(s)//
+  - name: websiteText5
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: Link
+  - name: website6
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: http(s)//
+  - name: websiteText6
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: Link
+  - name: website7
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: http(s)//
+  - name: websiteText7
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: Link
+  - name: website8
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: http(s)//
+  - name: websiteText8
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: Link
+  - name: website9
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: http(s)//
+  - name: websiteText9
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: Link
+  - name: website10
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: http(s)//
+  - name: websiteText10
+    inputType: string
+    display: true
+    label: 'Website Links'
+    defaultValue: Link
+engine:
+  type: Merge
+  sources:
+  - type: Chain
+    transformations:
+      - type: Include
+        patterns: ['**']
+      - type: ReplaceText
+        substitutions:
+        - text: <li><a href="mywebsite1.com"></a></li>
+          with: <li><a href="#website1">"#websiteText1"</a></li>
+        - text: <li><a href="mywebsite2.com"></a></li>
+          with: <li><a href="#website2">"#websiteText2"</a></li>
+        - text: <li><a href="mywebsite3.com"></a></li>
+          with: <li><a href="#website3">"#websiteText3"</a></li>
+        - text: <li><a href="mywebsite4.com"></a></li>
+          with: <li><a href="#website4">"#websiteText4"</a></li>
+        - text: <li><a href="mywebsite5.com"></a></li>
+          with: <li><a href="#website5">"#websiteText5"</a></li>
+        - text: <li><a href="mywebsite6.com"></a></li>
+          with: <li><a href="#website6">"#websiteText6"</a></li>
+        - text: <li><a href="mywebsite7.com"></a></li>
+          with: <li><a href="#website7">"#websiteText7"</a></li>
+        - text: <li><a href="mywebsite8.com"></a></li>
+          with: <li><a href="#website8">"#websiteText8"</a></li>
+        - text: <li><a href="mywebsite9.com"></a></li>
+          with: <li><a href="#website9">"#websiteText9"</a></li>
+        - text: <li><a href="mywebsite10.com"></a></li>
+          with: <li><a href="#website10">"#websiteText10"</a></li>
