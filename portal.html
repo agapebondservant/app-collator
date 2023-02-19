@@ -95,6 +95,9 @@ h2#loading {
         <li><a href="mywebsite9.com">websiteText9</a></li>
         <li><a href="mywebsite10.com">websiteText10</a></li>
     </ul>
+    <div class="alt tab-hide" id="altMainIframe">
+        <p>(If page does not render below, click here: <a class="alt" href="" target="_blank"/>)</p>
+    </div>
     <div class="tabContainer" id="websiteLinkTabs">
         <iframe id="mainIframe" src="http://operator-ui.tanzudatatap.ml"></iframe>
     </div>
@@ -110,7 +113,8 @@ h2#loading {
     $(function() {
         var tabs = $(".tabs li a"),
             tabContents = $("div.tabContainer"),
-            blankTabs = $(".tabs li a[href*='http(s)']");
+            blankTabs = $(".tabs li a[href*='http(s)']"),
+            altContents = $("#altMainIframe a");
 
         tabs.eq(0).addClass('currentTab');
 
@@ -118,6 +122,8 @@ h2#loading {
             tabs.removeClass();
             $(this).addClass('currentTab');
             tabContents.find('iframe').attr('src', $(this).attr('href'));
+            altContents.parent().removeClass("tab-hide");
+            altContents.attr('href', $(this).attr('href'));
             return false;
         });
 
