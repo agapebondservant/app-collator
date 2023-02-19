@@ -125,7 +125,7 @@ h2#loading {
             var sel = this;
 
             new MutationObserver(function() {
-                $(sel).addClass('tab-hide');
+                $(sel).parent().addClass('tab-hide');
             }).observe(sel, {childList: true, subtree: true});
         });
     });
