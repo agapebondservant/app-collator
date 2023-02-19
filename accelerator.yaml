@@ -16,102 +16,102 @@ accelerator:
   - "interface"
   options:
   - name: website1
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 1 - Link'
     defaultValue: http(s)//
   - name: websiteText1
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 1 - Title'
     defaultValue: Link
   - name: website2
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 2 - Link'
     defaultValue: http(s)//
   - name: websiteText2
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 2 - Title'
     defaultValue: Link
   - name: website3
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 3 - Link'
     defaultValue: http(s)//
   - name: websiteText3
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 3 - Title'
     defaultValue: Link
   - name: website4
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 4 - Link'
     defaultValue: http(s)//
   - name: websiteText4
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 4 - Title'
     defaultValue: Link
   - name: website5
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 5 - Link'
     defaultValue: http(s)//
   - name: websiteText5
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 5 - Title'
     defaultValue: Link
   - name: website6
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 6 - Link'
     defaultValue: http(s)//
   - name: websiteText6
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 6 - Title'
     defaultValue: Link
   - name: website7
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 7 - Link'
     defaultValue: http(s)//
   - name: websiteText7
-    inputType: string
+    inputType: text
     display: true
     label: 'Website7 - Title'
     defaultValue: Link
   - name: website8
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 8 - Link'
     defaultValue: http(s)//
   - name: websiteText8
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 8 - Title'
     defaultValue: Link
   - name: website9
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 9 - Link'
     defaultValue: http(s)//
   - name: websiteText9
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 9 - Title'
     defaultValue: Link
   - name: website10
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 10 - Link'
     defaultValue: http(s)//
   - name: websiteText10
-    inputType: string
+    inputType: text
     display: true
     label: 'Website 10 - Title'
     defaultValue: Link
